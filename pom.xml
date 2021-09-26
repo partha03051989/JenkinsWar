@@ -17,18 +17,5 @@
   </dependencies>
   <build>
     <finalName>JenkinsWar</finalName>
-    <plugin>
-    <groupId>org.apache.tomcat.maven</groupId>
-    <artifactId>tomcat10-maven-plugin</artifactId>
-    <version>2.1</version>
-    <configuration>
-        <url>http://localhost:8090/manager/text</url>
-        <update>true</update>
-        <server>jen-tomcat</server> 
-        <username>tomcat</username>
-        <password>abc123</password>
-        <path>/${finalName}</path>
-     </configuration>
- </plugin>
   </build>
 </project>
